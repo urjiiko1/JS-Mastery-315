@@ -1441,10 +1441,7 @@ body.dark-mode .theory-card p {
         <button id="tab-resources" onclick="showView('resources')" class="nav-tab font-bold text-[10px] sm:text-xs uppercase tracking-widest px-2 h-full flex items-center hover:text-indigo-500 transition-colors duration-300">Resources</button>
         <button id="tab-about" onclick="showView('about')" class="nav-tab font-bold text-[10px] sm:text-xs uppercase tracking-widest px-2 h-full flex items-center hover:text-indigo-500 transition-colors duration-300">About</button>
 
-        <!-- Dark/Light Toggle -->
-        <button id="darkToggle" class="ml-4 p-2 rounded-full bg-gray-800 text-gray-100 shadow hover:bg-gray-700 transition-colors duration-300">
-          ☀️
-        </button>
+       
       </div>
     </div>
   </nav>
@@ -1695,7 +1692,6 @@ body.dark-mode .theory-card p {
   </div>
 </div>
 
-
 <!-- RESOURCES SECTION -->
 <div id="view-resources" class="hidden animate-pop space-y-12">
 
@@ -1709,92 +1705,112 @@ body.dark-mode .theory-card p {
     </p>
   </div>
 
-  <!-- TOP ROW: DOWNLOAD CARDS -->
-  <div class="grid grid-cols-1 sm:grid-cols-2 gap-8">
+ <!-- TOP ROW: DOWNLOAD CARDS -->
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-8">
 
-    <!-- PART 1 -->
-    <div class="backdrop-blur-xl bg-white/10 dark:bg-gray-900/60
-                border border-indigo-500/30 shadow-xl shadow-indigo-500/10
-                rounded-3xl p-7 transition hover:-translate-y-1 hover:shadow-2xl
-                text-gray-900 dark:text-gray-100 space-y-4 min-h-[200px]">
+  <!-- PART 1 -->
+  <div class="backdrop-blur-xl bg-white/10 dark:bg-gray-900/60
+              border-l-6 border-[#10b981] shadow-xl shadow-[#10b981]/20
+              rounded-3xl p-7 transition hover:-translate-y-1 hover:shadow-2xl
+              text-gray-900 dark:text-gray-100 space-y-4 min-h-[200px]">
 
-      <div class="flex items-center gap-3">
-
-        <h2 class="text-xl font-bold text-indigo-500">
-          Unit 6 — Part 1
-        </h2>
-      </div>
-
-      <p class="text-gray-500 dark:text-gray-400 text-sm mt-2">
-        Fundamentals, concepts & exercises
-      </p>
-
-      <a href="./Uni6_Part1.zip" download
-         class="mt-5 block bg-indigo-600 hover:bg-indigo-500
-         text-white font-bold py-3 rounded-xl shadow-lg transition text-center">
-        Download Part 1 📥
-      </a>
+    <div class="flex items-center justify-between">
+      <h2 class="text-xl font-bold text-[#10b981]">
+        Unit 6 — Part 1
+      </h2>
+      <span class="text-xs text-[#10b981]/70 border border-[#10b981]/30 px-2 py-0.5 rounded-lg">
+        PDF
+      </span>
     </div>
 
-    <!-- PART 2 -->
-    <div class="backdrop-blur-xl bg-white/10 dark:bg-gray-900/60
-                border border-indigo-500/30 shadow-xl shadow-indigo-500/10
-                rounded-3xl p-7 transition hover:-translate-y-1 hover:shadow-2xl
-                text-gray-900 dark:text-gray-100 space-y-4">
+    <p class="text-gray-500 dark:text-gray-400 text-sm">
+      Fundamentals, concepts & exercises
+    </p>
 
-      <div class="flex items-center gap-3">
-        
-        <h2 class="text-xl font-bold text-indigo-500">
-          Unit 6 — Part 2
-        </h2>
-      </div>
-
-      <p class="text-gray-500 dark:text-gray-400 text-sm mt-2">
-        Advanced materials & practice projects
-      </p>
-
-      <a href="./Uni6_Part2.zip" download
-         class="mt-5 block bg-indigo-600 hover:bg-indigo-500
-         text-white font-bold py-3 rounded-xl shadow-lg transition text-center">
-        Download Part 2 📥
-      </a>
-    </div>
-
+    <a
+      href="https://rvqvrixknstdpzptizhy.supabase.co/storage/v1/object/public/JS%20Mastery%20-315/Chapter%206%20JS%20new%20part1.pdf"
+      target="_blank"
+      class="mt-5 block bg-[#10b981] hover:bg-[#059669]
+             text-white font-semibold py-3 rounded-xl shadow-lg transition text-center"
+    >
+      Open Lesson 📖
+    </a>
   </div>
 
-  <!-- BOTTOM ROW: INSTRUCTOR CARD -->
+  <!-- PART 2 -->
   <div class="backdrop-blur-xl bg-white/10 dark:bg-gray-900/60
-              border border-indigo-500/30 shadow-xl shadow-indigo-500/10
+              border-l-6 border-[#10b981] shadow-xl shadow-[#10b981]/20
               rounded-3xl p-7 transition hover:-translate-y-1 hover:shadow-2xl
-              text-gray-900 dark:text-gray-100 space-y-6 max-w-3xl mx-auto">
+              text-gray-900 dark:text-gray-100 space-y-4 min-h-[200px]">
 
+    <div class="flex items-center justify-between">
+      <h2 class="text-xl font-bold text-[#10b981]">
+        Unit 6 — Part 2
+      </h2>
+      <span class="text-xs text-[#10b981]/70 border border-[#10b981]/30 px-2 py-0.5 rounded-lg">
+        PDF
+      </span>
+    </div>
+
+    <p class="text-gray-500 dark:text-gray-400 text-sm">
+      Advanced materials & practice projects
+    </p>
+
+    <a
+      href="https://rvqvrixknstdpzptizhy.supabase.co/storage/v1/object/public/JS%20Mastery%20315/Chapter%206%20JS%20new%20part2.pdf"
+      target="_blank"
+      class="mt-5 block bg-[#10b981] hover:bg-[#059669]
+             text-white font-semibold py-3 rounded-xl shadow-lg transition text-center"
+    >
+      Open Lesson 📖
+    </a>
+  </div>
+
+</div>
+
+
+  <!-- INSTRUCTOR CARD -->
+  <div class="max-w-3xl mx-auto p-6 bg-white/10 dark:bg-gray-900/60 backdrop-blur-xl
+              border-l-6 border-[#f59e0b] rounded-3xl shadow-lg transition-transform
+              hover:-translate-y-2 hover:shadow-2xl space-y-6">
+
+    <!-- HEADER: Avatar + Name + Role -->
     <div class="flex items-center gap-4">
-      <img src="https://i.ibb.co/2q6wQ07/avatar.png"
-           class="w-16 h-16 rounded-full border border-indigo-400 shadow-lg" />
+      <img src="./image/profile.jpg"
+           class="w-16 h-16 rounded-full border-2 border-[#f59e0b] shadow-md" />
 
       <div>
-        <h2 class="text-lg font-bold">
-          Mr. <span class="text-indigo-500">Belete</span>
+        <h2 class="text-xl font-bold text-gray-900 dark:text-gray-100">
+          Mr. <span class="text-[#f59e0b]">Belete</span>
         </h2>
-        <p class="text-gray-500 dark:text-gray-400 text-sm">
+        <p class="text-sm text-gray-500 dark:text-gray-400 mt-1">
           JavaScript Instructor
         </p>
       </div>
     </div>
 
-    <div class="bg-indigo-600/10 border border-indigo-500/20
-                rounded-2xl p-4 space-y-2">
+    <!-- CONTACT INFO -->
+    <div class="bg-[#f59e0b]/10 dark:bg-[#f59e0b]/20 border border-[#f59e0b]/20
+                rounded-2xl p-5 space-y-3">
 
-      <p class="font-bold text-sm">Contact</p>
+      <h3 class="font-semibold text-sm text-[#f59e0b]">📬 Contact</h3>
 
-      <p class="text-sm text-gray-300">📧 belete@example.com</p>
-      <p class="text-sm text-gray-300">📞 +251 9XX XXX XXX</p>
+      <div class="space-y-1 text-gray-300 text-sm">
+        <p>📧 belete@example.com</p>
+        <p>📞 +251 910 396 023</p>
+      </div>
 
-      <a href="https://t.me/BeleteJS" target="_blank"
-         class="block text-center bg-indigo-600 hover:bg-indigo-500 py-2.5
-         rounded-xl font-bold text-sm shadow-lg transition">
-        Join Telegram ✨
+      <a href="https://t.me/Bell_to_bell" target="_blank" rel="noopener noreferrer"
+         class="block text-center mt-3 bg-[#f59e0b] hover:bg-[#d97706]
+                text-white font-bold py-2 rounded-xl shadow-md transition">
+        Join Telegram 
       </a>
+    </div>
+
+    <!-- SOCIAL / ADDITIONAL INFO -->
+    <div class="flex justify-between mt-4 text-gray-400 text-sm">
+      <p>Years of Experience: 5+</p>
+      <p>Courses Taken: 10+</p>
     </div>
 
   </div>
@@ -1803,50 +1819,57 @@ body.dark-mode .theory-card p {
 
 
 
-
-
-
-
-
 <!-- ABOUT / DEVELOPER SECTION -->
-<div id="view-about" class="space-y-12">
+<div id="view-about" class="hidden space-y-12">
 
   <div class="bg-white/10 dark:bg-gray-900/60 backdrop-blur-xl
-              border border-indigo-500/30 rounded-3xl p-8 md:p-10
-              shadow-xl shadow-indigo-500/10 transition hover:-translate-y-1 hover:shadow-2xl
+              border border-green-500/30 rounded-3xl p-8 md:p-10
+              shadow-xl shadow-green-500/10 transition hover:-translate-y-1 hover:shadow-2xl
               min-h-[380px] flex flex-col justify-between text-gray-900 dark:text-gray-100 space-y-6 max-w-3xl mx-auto">
 
     <!-- Top: Avatar + Info -->
     <div class="flex items-center space-x-6">
-      <div class="w-20 h-20 rounded-3xl bg-gradient-to-tr from-indigo-500 to-purple-500
+      <div class="w-20 h-20 rounded-3xl bg-gradient-to-tr from-green-500 to-teal-500
                   flex items-center justify-center text-4xl shadow-lg animate-bounce">
         👨‍💻
       </div>
 
       <div>
         <h2 class="text-3xl font-extrabold">Gemachis T.</h2>
-        <p class="text-indigo-400 font-semibold">Software Developer & Student</p>
+        <p class="text-green-400 font-semibold">Student & Developer</p>
       </div>
     </div>
 
     <!-- Description -->
     <p class="text-gray-500 dark:text-gray-400 leading-relaxed">
-      Creator of JS Mastery 315. Passionate about building learning tools, web apps and UI experiences.
+      Creator of JS Mastery 315. Passionate about building interactive learning tools, web apps, and UI experiences.
     </p>
 
     <!-- Social Buttons -->
     <div class="flex flex-wrap gap-3">
-      <a href="#" class="flex-1 sm:flex-auto px-4 py-2 rounded-2xl font-semibold bg-indigo-600 hover:bg-indigo-500 text-center transition">💬 Telegram</a>
-      <a href="#" class="flex-1 sm:flex-auto px-4 py-2 rounded-2xl font-semibold bg-blue-600 hover:bg-blue-500 text-center transition">🔗 LinkedIn</a>
-      <a href="#" class="flex-1 sm:flex-auto px-4 py-2 rounded-2xl font-semibold bg-gray-800 hover:bg-gray-700 text-center transition">🔗 GitHub</a>
-      <a href="#" class="flex-1 sm:flex-auto px-4 py-2 rounded-2xl font-semibold bg-green-600 hover:bg-green-500 text-center transition">🌐 Portfolio</a>
+      <a href="https://t.me/urjiiko1" target="_blank" 
+         class="flex-1 sm:flex-auto px-4 py-2 rounded-2xl font-semibold bg-green-600 hover:bg-green-500 text-center text-white transition">
+         💬 Telegram
+      </a>
+      <a href="www.linkedin.com/in/gemachis-tesfaye-137196318" target="_blank" 
+         class="flex-1 sm:flex-auto px-4 py-2 rounded-2xl font-semibold bg-blue-600 hover:bg-blue-500 text-center text-white transition">
+         🔗 LinkedIn
+      </a>
+      <a href="https://github.com/urjiiko1" target="_blank" 
+         class="flex-1 sm:flex-auto px-4 py-2 rounded-2xl font-semibold bg-gray-800 hover:bg-gray-700 text-center text-white transition">
+         🔗 GitHub
+      </a>
+      <a href="https://urjiiko1.github.io/Portfolio/" target="_blank" 
+         class="flex-1 sm:flex-auto px-4 py-2 rounded-2xl font-semibold bg-green-500 hover:bg-green-400 text-center text-white transition">
+         🌐 Portfolio
+      </a>
     </div>
 
     <!-- Skills Badges -->
     <div class="flex flex-wrap gap-2">
-      <span class="bg-indigo-600 text-white px-3 py-1 rounded-full text-xs">JavaScript</span>
-      <span class="bg-purple-600 text-white px-3 py-1 rounded-full text-xs">React</span>
-      <span class="bg-green-500 text-white px-3 py-1 rounded-full text-xs">Python</span>
+      <span class="bg-green-600 text-white px-3 py-1 rounded-full text-xs">JavaScript</span>
+      <span class="bg-teal-500 text-white px-3 py-1 rounded-full text-xs">React</span>
+      <span class="bg-green-400 text-white px-3 py-1 rounded-full text-xs">Python</span>
       <span class="bg-pink-500 text-white px-3 py-1 rounded-full text-xs">Tailwind</span>
     </div>
 
@@ -1854,40 +1877,34 @@ body.dark-mode .theory-card p {
 
 </div>
 
-  
-
-
-
-
 
     </main>
+
+
+    <footer class="border-t border-indigo-500/30 bg-gray-900/80 backdrop-blur-md">
+  <p class="text-center text-sm text-gray-400 py-3 px-6">
+    © 2025 <span class="text-indigo-400 font-medium">JS Mastery 315</span> 
+
+    
+  </p>
+</footer>
+
 
     <script>
 
 
 
-const toggleBtn = document.getElementById("darkToggle");
-const body = document.body;
 
-// Load saved theme
-if (localStorage.getItem("theme") === "dark") {
-  body.classList.add("dark-mode");
-  toggleBtn.textContent = "🌙";
+
+
+function showSection(sectionId) {
+  // Hide all pages
+  document.querySelectorAll('#view-home, #view-resources, #view-about')
+    .forEach(sec => sec.classList.add('hidden'));
+
+  // Show selected page
+  document.getElementById(sectionId).classList.remove('hidden');
 }
-
-// Toggle dark / light
-toggleBtn.addEventListener("click", () => {
-  body.classList.toggle("dark-mode");
-
-  if (body.classList.contains("dark-mode")) {
-    localStorage.setItem("theme", "dark");
-    toggleBtn.textContent = "🌙";
-  } else {
-    localStorage.setItem("theme", "light");
-    toggleBtn.textContent = "☀️";
-  }
-});
-
 
 
 
